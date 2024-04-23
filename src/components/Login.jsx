@@ -18,6 +18,7 @@ function Login() {
             variant="outlined"
             required
             defaultValue="Marry Doe"
+            placeholder='Enter Email Address'
           />
            <TextField
             id="outlined-basic"
@@ -26,6 +27,7 @@ function Login() {
             variant="outlined"
             required
             defaultValue="Marry Doe"
+            placeholder='Enter password'
           />
           </div>
         <Link to="/profilepage" className="login-btn btn" >Login</Link>
